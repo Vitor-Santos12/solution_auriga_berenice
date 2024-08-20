@@ -7,10 +7,6 @@
 
 ![alt text](<Test LW photo.jpg>)
 
-~~~bash
-boundAirplane = 50 # 50 <= boundAirplane <= 50  
-~~~
-
 3. The report from each airplane contained information about two distinct points (x0, y0) and (x1, y1) where the airplane entered the given square and exited it, respectively.
 
 4. Between these points, the airplane moved strictly in a straight line.
@@ -32,17 +28,8 @@ RAM consumption is limited to 4GB.
 * The first line contains a natural number L - the size of the given forest square in kilometers (0 < L <= 1000).
 
 * The second line contains a natural number N (1 <= N <= 100) - the number of airplanes.
-
-~~~bash
-int N = 100 // Number of airplanes
-~~~
 * Each of the following N lines contains a report from an airplane - four real coordinates x0, y0, x1, y1.
 * The coordinates are specified in kilometers.
-
-~~~bash
-int  x0, y0, x1, y1 = 0 ; # coordinates are in kilometers
-~~~ 
-
 * The sides of the forest square are parallel to the coordinate axes, its bottom-left corner is located at the point with coordinates (0, 0), and the top-right corner is at the point (L, L).
 
 ### Output Data
@@ -50,26 +37,9 @@ int  x0, y0, x1, y1 = 0 ; # coordinates are in kilometers
 * The output file named OUTPUT shall contain one line.
 
 * If the given square has been completely viewed, this line should consist of the word "OK" written in uppercase.
-~~~bash
-if ("Airplane is in square"){
-    printf("OK")
-}
-~~~
 * Otherwise, this line should contain the coordinates x and y of some point that did not fall into any of the viewed strips, separated by a space.
-
 * The coordinates should be printed in kilometers with an error not exceeding one meter.
-~~~bash
-
-else{
-   printf("The coordinates x: %d Kilometers and y: %d Kilometers e Error < 1 kilometer", x , y)
-}
-~~~
 * The program shall print to OUTPUT the word "ERROR" in case if input data is incorrect.
-~~~bash
-if(dataInput == "Incorrect"){
-    printf("ERROR!!!")
-}
-~~~
 
 ### Example Input File
 
