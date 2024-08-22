@@ -55,3 +55,5 @@ RAM consumption is limited to 4GB.
 ```
 92.59 41
 ```
+
+## [Solution](<Solution.MD>)
