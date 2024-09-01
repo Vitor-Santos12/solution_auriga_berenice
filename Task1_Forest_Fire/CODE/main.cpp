@@ -46,7 +46,7 @@ bool isPointInStrip(const Point &p, const Line &line, double L) {
 
 int main() {
   //Generate random input_file
-  generateInputFile("Task1_Forest_Fire/CODE/data/INPUT");
+  /* generateInputFile("Task1_Forest_Fire/CODE/data/INPUT"); */
 
   //Verify the genereted file.
   bool isValid = verifierInputFile("Task1_Forest_Fire/CODE/data/INPUT");
@@ -58,11 +58,11 @@ int main() {
   if (isValid) {
     
   double L;
-  int N;
+  u_int N = 0;
   input >> L >> N;
 
   vector<Line> lines(N);
-  for (int i = 0; i < N; ++i) {
+  for (u_int i = 0; i < N; ++i) {
     input >> lines[i].start.x >> lines[i].start.y >> lines[i].end.x >>
         lines[i].end.y;
   }

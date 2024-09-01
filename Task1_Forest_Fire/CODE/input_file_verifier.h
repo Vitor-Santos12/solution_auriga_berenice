@@ -12,7 +12,7 @@ using namespace std;
 bool verifierInputFile(const std::string &filename) {
   ifstream input(filename);
 
-  int L;
+  int L = 0;
 
   if (!input.is_open()) {
     std::cerr << "\nErro ao abrir o arquivo " << filename << std::endl;
@@ -24,7 +24,7 @@ bool verifierInputFile(const std::string &filename) {
 
   if (std::getline(input, line)) {
     lineNumber++;
-    int L;
+
     std::istringstream iss(line);
     if (!(iss >> L) || L <= 0 || L > 1000) {
       std::cerr << "\nERROR " << lineNumber << ": invalid L size!" << std::endl;

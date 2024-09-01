@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +9,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Vitor/OneDrive/Documentos/GitHub/Answers_Auriga_Berenice/Task1_Forest_Fire",
-      "program": "c:/Users/Vitor/OneDrive/Documentos/GitHub/Answers_Auriga_Berenice/Task1_Forest_Fire/build/Debug/outDebug",
+      "cwd": "/home/victor/Documentos/github/solution_auriga_berenice/Task1_Forest_Fire/CODE/build/Debug",
+      "program": "/home/victor/Documentos/github/solution_auriga_berenice/Task1_Forest_Fire/CODE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
